@@ -1107,16 +1107,17 @@ button {
   padding: 138px 0 72px;
 }
 
-.hero__mobile-logo {
+.hero__desktop-logo {
   display: none;
 }
 
-@media (max-width: 560px) {
-  .hero__mobile-logo {
+@media (min-width: 901px) {
+  .hero__desktop-logo {
     display: block;
-    width: min(180px, 60%);
+    width: min(306px, 100%);
     height: auto;
     justify-self: center;
+    transform: translate(6px, 8px);
   }
 }
 
